@@ -19,7 +19,7 @@ public class Cube {
 
     public void setSide(int side) {
         if (side<1) {
-            throw new IllegalArgumentException("A cube’s side length cannot be less than 1!");
+            throw new IllegalArgumentException("We don't accept a number under 1");
         }
         else {
             this.side = side;
